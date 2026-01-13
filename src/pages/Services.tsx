@@ -123,7 +123,7 @@ const Services = () => {
                         ))}
                       </div>
 
-                      <Link to={`/order?service=${service.id}`}>
+                      <Link to={`/providers?category=${service.id}`}>
                         <Button variant="gold" className="w-full gap-2">
                           Buyurtma berish
                           <ArrowRight className="h-4 w-4" />
