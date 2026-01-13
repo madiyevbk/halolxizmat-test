@@ -60,7 +60,7 @@ const ServiceCategories = () => {
           {services.map((service, index) => (
             <Link 
               key={service.id} 
-              to={`/services?category=${service.id}`}
+              to={`/providers?category=${service.id}`}
               className="group"
               style={{ animationDelay: `${index * 100}ms` }}
             >
